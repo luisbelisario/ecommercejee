@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @Path("/product")
 public class ProductController {
 
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Product getProduct() {
