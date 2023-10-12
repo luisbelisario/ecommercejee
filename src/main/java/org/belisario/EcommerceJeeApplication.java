@@ -1,4 +1,4 @@
-package org.belisario.controller;
+package org.belisario;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;

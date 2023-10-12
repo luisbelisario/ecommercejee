@@ -1,5 +1,7 @@
 package org.belisario.model;
 
+import java.util.List;
+
 public class Client {
 
     private Long id;
@@ -11,6 +13,8 @@ public class Client {
     private String name;
 
     private String cpf;
+
+    private List<Order> orders;
 
     public Client() {
 
@@ -62,6 +66,14 @@ public class Client {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 
     @Override
